@@ -1,9 +1,9 @@
-var add_href="";
-var minitora_link = "minitora/minitora.html"
-if((location.pathname).includes("minitora")){
-    add_href = "../"
-    minitora_link = "minitora.html"
-}
+// var add_href="";
+// var minitora_link = "minitora/minitora.html"
+// if((location.pathname).includes("minitora")){
+//     add_href = "../"
+//     minitora_link = "minitora.html"
+// }
 
 const head = document.getElementById("head");
 
@@ -18,14 +18,14 @@ head.appendChild($h1);
 const $div_display_PC_header = document.createElement("div");
 $div_display_PC_header.classList.add("display_PC_header");
 const li_List = [
-    { href: add_href + "index.html", text: "ホーム" },
-    { href: add_href + "about.html", text: "活動" },
-    { href: minitora_link, text: "ミニトライアスロン2023" },
-    { href: add_href + "member.html", text: "部員" },
-    { href: add_href + "event.html", text: "年間行事" },
-    { href: add_href + "blog.html", text: "活動報告" },
+    { href: /*add_href + "index.html"*/, text: "ホーム" },
+    { href: /*add_href + "about.html*/", text: "活動" },
+    { href: /*minitora_link*/, text: "ミニトライアスロン2023" },
+    { href: /*add_href + "member.html"*/, text: "部員" },
+    { href: /*add_href + "event.html"*/, text: "年間行事" },
+    { href: /*add_href + "blog.html"*/, text: "活動報告" },
     { href: add_href + "practice.html", text: "練習" },
-    { href: add_href + "inquiry.html", text: "お問い合わせ" },
+    { href: /*add_href + "inquiry.html*/", text: "お問い合わせ" },
 ];
 const $ul_display_PC_header = document.createElement("ul");
 $ul_display_PC_header.classList.add("nav-list");
