@@ -9,7 +9,7 @@ const head = document.getElementById("head");
 
 const $h1 = document.createElement("h1");
 const $a_h1 = document.createElement("a");
-$a_h1.textContent = "会津大学トライアスロン部";
+$a_h1.textContent = "これはデモサイトです。";
 $a_h1.href = (/*add_href + */"index.html");
 $h1.appendChild($a_h1);
 head.appendChild($h1);
