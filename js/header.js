@@ -10,7 +10,7 @@ const head = document.getElementById("head");
 const $h1 = document.createElement("h1");
 const $a_h1 = document.createElement("a");
 $a_h1.textContent = "会津大学トライアスロン部";
-$a_h1.href = (add_href + "index.html");
+$a_h1.href = (/*add_href + */"index.html");
 $h1.appendChild($a_h1);
 head.appendChild($h1);
 
@@ -18,14 +18,14 @@ head.appendChild($h1);
 const $div_display_PC_header = document.createElement("div");
 $div_display_PC_header.classList.add("display_PC_header");
 const li_List = [
-    { href: /*add_href + "index.html"*/, text: "ホーム" },
-    { href: /*add_href + "about.html*/", text: "活動" },
-    { href: /*minitora_link*/, text: "ミニトライアスロン2023" },
-    { href: /*add_href + "member.html"*/, text: "部員" },
-    { href: /*add_href + "event.html"*/, text: "年間行事" },
-    { href: /*add_href + "blog.html"*/, text: "活動報告" },
-    { href: add_href + "practice.html", text: "練習" },
-    { href: /*add_href + "inquiry.html*/", text: "お問い合わせ" },
+    { href: "", text: "ホーム" },
+    { href: "", text: "活動" },
+    { href: "", text: "ミニトライアスロン2023" },
+    { href: "", text: "部員" },
+    { href: "", text: "年間行事" },
+    { href: "", text: "活動報告" },
+    { href: "practice.html", text: "練習" },
+    { href: "", text: "お問い合わせ" },
 ];
 const $ul_display_PC_header = document.createElement("ul");
 $ul_display_PC_header.classList.add("nav-list");
